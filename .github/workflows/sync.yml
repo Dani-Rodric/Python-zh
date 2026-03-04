@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: 'Dani-Rodric/Python-zh'
-          token: ${{ secrets.GITHUB_API_KEY }} # 使用您的密钥来推送
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
