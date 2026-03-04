@@ -30,7 +30,7 @@ jobs:
       - name: Run Sync and Translation Script
         env:
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
-          GITHUB_API_KEY: ${{ secrets.GITHUB_API_KEY }}
+          GITHUB_API_KEY: ${{ secrets.GH_PAT }}
         run: python sync.py
 
       - name: Push changes
