@@ -1,0 +1,42 @@
+{
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496715&idx=1&sn=11724124f488304861258517006724eb": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:17:57.949152"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496729&idx=1&sn=b2739b1e1347ce5f7dcdab1481ce0bae": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:18:13.809136"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496722&idx=1&sn=65df84d75b1191596146326da7f8a6fc": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:18:29.550186"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496688&idx=1&sn=76dd35cb163c5134bbc2b3ca16c4671e": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:18:45.383906"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496704&idx=1&sn=dd113c4f54b6d0dcb46190da25fa8ac6": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:19:01.469468"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496709&idx=1&sn=adeaa17e32b0e9e0b53bba61c135d311": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:19:17.173128"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496729&idx=2&sn=77f1f6c5ce60caf34194e07b07dbf981": {
+        "status": "failed",
+        "reason": "Timeout",
+        "scraped_at": "2026-03-03T17:20:04.016707"
+    },
+    "https://mp.weixin.qq.com/s?__biz=Mzg4NzY3NzIwOA==&mid=2247496734&idx=1&sn=d81c048fa404c7b6d25ab44aafbd19f9": {
+        "status": "failed",
+        "reason": "Message: unknown error: net::ERR_CONNECTION_CLOSED\n  (Session info: chrome=144.0.7559.133)\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff756b2f3d5\n\t0x7ff756b2f430\n\t0x7ff7568d10bd\n\t0x7ff7568cdbe4\n\t0x7ff7568be071\n\t0x7ff7568bff5f\n\t0x7ff7568be611\n\t0x7ff7568bdddb\n\t0x7ff7568bda91\n\t0x7ff7568bb6c1\n\t0x7ff7568bbe22\n\t0x7ff7568d5366\n\t0x7ff75697ab34\n\t0x7ff75695589a\n\t0x7ff756979d08\n\t0x7ff75691cb0c\n\t0x7ff75691da53\n\t0x7ff756e0b470\n\t0x7ff756e0586d\n\t0x7ff756e2621a\n\t0x7ff756b4b235\n\t0x7ff756b53a5c\n\t0x7ff756b38844\n\t0x7ff756b389f6\n\t0x7ff756b1eb87\n\t0x7ffa43b5259d\n\t0x7ffa4526af78\n",
+        "scraped_at": "2026-03-03T17:20:09.179030"
+    }
+}

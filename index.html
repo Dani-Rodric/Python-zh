@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FearNation Club | Personal Site</title>
+    <meta name="description" content="Personal site for research articles and portfolio albums.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">FEARNATION</a>
+        <nav class="nav" id="nav">
+          <a href="#home" data-section="home">HOME</a>
+          <a href="#about" data-section="about">ABOUT</a>
+          <a href="#blog" data-section="blog">RESEARCH</a>
+          <a href="#albums" data-section="albums">ALBUMS</a>
+          <a href="#contact" data-section="contact">CONTACT</a>
+        </nav>
+        <div class="actions">
+          <button class="search-toggle" id="searchToggle" aria-label="Search">🔍</button>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">🌓</button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+        </div>
+      </div>
+      <div class="search-bar" id="searchBar">
+        <div class="container">
+          <input type="text" id="searchInput" placeholder="SEARCH" aria-label="Search">
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section id="home" class="section active">
+        <div class="hero">
+          <div class="hero-bg"></div>
+          <h1 class="hero-title">FEARNATION</h1>
+          <p class="hero-sub">RESEARCHER & CREATOR</p>
+          <div class="hero-cta">
+            <a class="btn" href="#blog" data-section="blog">EXPLORE WORKS</a>
+            <a class="btn ghost" href="#albums" data-section="albums">VIEW ALBUMS</a>
+          </div>
+        </div>
+      </section>
+      <section id="featured" class="section">
+        <h2 class="section-title">FEATURED INSIGHTS</h2>
+        <div class="grid" id="featuredGrid"></div>
+      </section>
+      <section id="blog" class="section">
+        <h2 class="section-title">LATEST RESEARCH</h2>
+        <div class="grid" id="researchGrid"></div>
+        <div class="loadmore">
+          <button class="btn ghost" id="loadMoreResearch">LOAD MORE</button>
+        </div>
+      </section>
+      <section id="albums" class="section">
+        <h2 class="section-title">POPULAR ALBUMS</h2>
+        <div class="grid" id="albumsGrid"></div>
+        <div class="loadmore">
+          <button class="btn ghost" id="loadMoreAlbums">LOAD MORE</button>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="about about-hero">
+          <div class="about-photo"></div>
+          <div class="about-text">
+            <p>Researcher & Creator focusing on systems, aesthetics, and expression. This site curates articles and albums as a refined atelier for discerning visitors.</p>
+          </div>
+        </div>
+        <div class="about-body">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-year">2025</div>
+              <div class="timeline-text">Selected works and publications.</div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2023–2024</div>
+              <div class="timeline-text">Research and creative practice.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="contact">
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="NAME" aria-label="Name" required>
+            <input type="email" placeholder="EMAIL" aria-label="Email" required>
+            <textarea placeholder="MESSAGE" aria-label="Message" rows="4" required></textarea>
+            <button class="btn" type="submit">SEND</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© 2025 FEARNATION</div>
+        <div class="footer-links">
+          <a href="#">RSS</a>
+          <a href="#">PRIVACY</a>
+        </div>
+      </div>
+    </footer>
+    <div class="modal" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+    <script src="site/script.js"></script>
+  </body>
+  </html>
